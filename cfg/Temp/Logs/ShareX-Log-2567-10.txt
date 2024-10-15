@@ -1,0 +1,32 @@
+﻿2567-10-15 14:32:17.694 - ShareX starting.
+2567-10-15 14:32:17.695 - Version: 16.1
+2567-10-15 14:32:17.695 - Build: Release
+2567-10-15 14:32:17.695 - Command line: "C:\Users\jirawat.m\AppData\Local\Programs\ShareX\ShareX.exe" -silent
+2567-10-15 14:32:17.696 - Personal path: D:\Tester\jira_automation_tool\cfg\Temp
+2567-10-15 14:32:17.696 - Personal path detection method: PersonalPath.cfg file (C:\Users\jirawat.m\Documents\ShareX\PersonalPath.cfg)
+2567-10-15 14:32:17.697 - Operating system: Windows 10 Pro (64-bit)
+2567-10-15 14:32:17.698 - Running as elevated process: False
+2567-10-15 14:32:17.722 - Flags: SilentRun
+2567-10-15 14:32:17.751 - ApplicationConfig file does not exist: D:\Tester\jira_automation_tool\cfg\Temp\ApplicationConfig.json
+2567-10-15 14:32:17.751 - ApplicationConfig file does not exist: D:\Tester\jira_automation_tool\cfg\Temp\ApplicationConfig.json.temp
+2567-10-15 14:32:17.751 - ApplicationConfig file does not exist: D:\Tester\jira_automation_tool\cfg\Temp\Backup\ApplicationConfig.json
+2567-10-15 14:32:17.751 - Loading new ApplicationConfig instance.
+2567-10-15 14:32:18.395 - UploadersConfig file does not exist: D:\Tester\jira_automation_tool\cfg\Temp\UploadersConfig.json
+2567-10-15 14:32:18.395 - UploadersConfig file does not exist: D:\Tester\jira_automation_tool\cfg\Temp\UploadersConfig.json.temp
+2567-10-15 14:32:18.395 - UploadersConfig file does not exist: D:\Tester\jira_automation_tool\cfg\Temp\Backup\UploadersConfig.json
+2567-10-15 14:32:18.395 - Loading new UploadersConfig instance.
+2567-10-15 14:32:18.408 - HotkeysConfig file does not exist: D:\Tester\jira_automation_tool\cfg\Temp\HotkeysConfig.json
+2567-10-15 14:32:18.408 - HotkeysConfig file does not exist: D:\Tester\jira_automation_tool\cfg\Temp\HotkeysConfig.json.temp
+2567-10-15 14:32:18.408 - HotkeysConfig file does not exist: D:\Tester\jira_automation_tool\cfg\Temp\Backup\HotkeysConfig.json
+2567-10-15 14:32:18.408 - Loading new HotkeysConfig instance.
+2567-10-15 14:32:18.756 - MainForm init started.
+2567-10-15 14:32:19.386 - MainForm init finished.
+2567-10-15 14:32:19.678 - Hotkey registered: Hotkey: Ctrl + Print Screen, Description: Capture region, Job: RectangleRegion
+2567-10-15 14:32:19.678 - Hotkey registered: Hotkey: Print Screen, Description: Capture entire screen, Job: PrintScreen
+2567-10-15 14:32:19.678 - Hotkey registered: Hotkey: Alt + Print Screen, Description: Capture active window, Job: ActiveWindow
+2567-10-15 14:32:19.678 - Hotkey registered: Hotkey: Shift + Print Screen, Description: Start/Stop screen recording, Job: ScreenRecorder
+2567-10-15 14:32:19.678 - Hotkey registered: Hotkey: Ctrl + Shift + Print Screen, Description: Start/Stop screen recording (GIF), Job: ScreenRecorderGIF
+2567-10-15 14:32:19.679 - HotkeyManager started.
+2567-10-15 14:32:19.680 - WatchFolderManager started.
+2567-10-15 14:32:19.693 - Startup time: 2394 ms
+2567-10-15 14:32:19.703 - CommandLine: -silent
