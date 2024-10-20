@@ -144,8 +144,19 @@ def notify_slack(message):
             raise ValueError(f"Request to Slack returned an error {response.status_code}, the response is: {response.text}")
         logging.info(f"Sent notification to Slack: {message}")
 
-# Function to rename and move images from Temp folder to a destination folder (ordered by creation time)
 def rename_and_move_images(test_case_id, destination_folder):
+    # Check if the TEMP_FOLDER exists
+    if not os.path.exists(config.TEMP_FOLDER):
+        logging.error(f"TEMP_FOLDER {config.TEMP_FOLDER} does not exist.")
+        return None
+
+    # Check if there are files in TEMP_FOLDER
+    files = os.listdir(config.TEMP_FOLDER)
+    if not files:
+        logging.error(f"No files found in TEMP_FOLDER: {config.TEMP_FOLDER}")
+        return None
+
+    # Check if destination folder exists, if not create it
     if os.path.exists(destination_folder):
         # Clear the folder by deleting all existing files
         for file in os.listdir(destination_folder):
@@ -158,12 +169,17 @@ def rename_and_move_images(test_case_id, destination_folder):
                 logging.error(f"Failed to delete {file_path}: {str(e)}")
     else:
         os.makedirs(destination_folder, exist_ok=True)  # Create the folder if it doesn't exist
+        logging.info(f"Created destination folder: {destination_folder}")
 
-    files = os.listdir(config.TEMP_FOLDER)
+    # Process image files in TEMP_FOLDER
     image_files = sorted(
         [f for f in files if f.endswith('.png') or f.endswith('.jpg')],
         key=lambda x: os.path.getctime(os.path.join(config.TEMP_FOLDER, x))
     )
+
+    if not image_files:
+        logging.info(f"No image files found for test case {test_case_id} in TEMP_FOLDER.")
+        return None
 
     # Rename and move each image to the new folder
     for idx, filename in enumerate(image_files, start=1):
@@ -178,6 +194,7 @@ def rename_and_move_images(test_case_id, destination_folder):
             logging.error(f"Failed to move {filename}: {str(e)}")
 
     return destination_folder  # Return the folder path for the test case
+
 
 @retry(wait=wait_fixed(2), stop=stop_after_attempt(3))
 def attach_images_to_jira(issue_key, case_folder, test_case_id):

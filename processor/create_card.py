@@ -82,7 +82,7 @@ def get_last_running_number(module):
             issues = response.json().get('issues', [])
 
             if not issues:
-                print("No issues found with NPL running numbers. Defaulting to 001.")
+                print(f"No issues found with {module} running numbers. Defaulting to 001.")
                 return "001"
 
             # Initialize variables to store the highest running number
@@ -95,7 +95,7 @@ def get_last_running_number(module):
 
                 try:
                     # Extract the running number between "[" and "]"
-                    running_number_str = summary.split("[NPL")[1].split("]")[0].strip()
+                    running_number_str = summary.split(f"[{module}")[1].split("]")[0].strip()
                     print(f"Extracted running number string: {running_number_str}")
 
                     # Convert the extracted string to an integer
@@ -173,16 +173,20 @@ def process_sheet(test_case_file, sheet_name, module):
         
         # Extract relevant information and sanitize
         first_row = group.iloc[0]
+        
+        # Fetch data with fallback values to avoid "Unknown" or "No description available" issues
         test_case_description = sanitize_text(first_row.get('Test Case Description', 'No description available'))
+        group_ball = sanitize_text(first_row.get('Group', 'Unknown'))
+        
+        # Handle potential missing or empty data fields more gracefully
         test_status_by_tbn = sanitize_text(first_row.get('Test Script Status', 'Unknown'))
         tbn_test_date = sanitize_text(first_row.get('Test Date', 'Unknown'))
-        group_ball = sanitize_text(first_row.get('Group_Ball', 'Unknown'))
-
+        
         # Generate the table for test script details in ADF format
         test_script_table_adf = create_test_script_table(group)
 
         # Format the running number
-        running_str = f"NPL{str(running_number).zfill(3)}"
+        running_str = f"{module}{str(running_number).zfill(3)}"
 
         # Jira summary
         summary = f"[{running_str}] {group_ball} - {test_case_id} - {test_case_description}"

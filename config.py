@@ -9,8 +9,8 @@ CANCEL_FOLDER_BASE = r".\cfg\Canceled"
 ARCHIVE_FOLDER = r".\cfg\Archive"
 
 # Global credentials variables
-username = ""
-api_token = ""
+username = "jirawat.m@bam.co.th"
+api_token = "ATATT3xFfGF0qSn1jb4ql4m8vS4pBurktW6IbLcSCwfqCOD0feW5EaTbOSZ5uPm4I9lZ-H8s6MJp6dmGoO2K-epMQrQdh3eA6APwLiWgbCc43KzvwUwgzTnpprGo-AlpROPlvmm57TNMpxCNiDNO3ledwmWJuhT8VrlGGB8Hqi75bWn3aOaib7Q=C9E02C3D"
 ENCODED_CREDENTIALS = ""
 AUTH = None
 

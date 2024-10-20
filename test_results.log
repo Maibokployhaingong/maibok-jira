@@ -1,0 +1,36 @@
+2024-10-18 11:48:10,259 INFO rename_and_move_images 172: Created destination folder: .\cfg\Bugs\NPL001 - TC_NPL01044
+2024-10-18 11:48:10,260 INFO rename_and_move_images 192: Moved and renamed ZtHyDp1sFM.png to TC_NPL01044_001.png
+2024-10-18 11:48:11,049 INFO create_bug_issue 273: BUG issue created: BTV-3823
+2024-10-18 11:48:12,619 INFO attach_images_to_jira 231: Successfully attached TC_NPL01044_001.png to Jira issue BTV-3823
+2024-10-18 11:48:13,098 INFO link_bug_to_main_issue 70: Successfully linked BTV-3823 to BTV-3251
+2024-10-18 11:48:13,475 INFO log_test_results_to_remark 310: Successfully logged test results to Remark for Jira issue BTV-3251
+2024-10-18 11:51:07,469 INFO rename_and_move_images 172: Created destination folder: .\cfg\Bugs\NPL001 - TC_NPL01044
+2024-10-18 11:51:07,471 INFO rename_and_move_images 192: Moved and renamed msedge_mJe9wFWMyj.png to TC_NPL01044_001.png
+2024-10-18 11:51:08,328 INFO create_bug_issue 273: BUG issue created: BTV-3824
+2024-10-18 11:51:09,282 INFO attach_images_to_jira 231: Successfully attached TC_NPL01044_001.png to Jira issue BTV-3824
+2024-10-18 11:51:09,710 INFO link_bug_to_main_issue 70: Successfully linked BTV-3824 to BTV-3251
+2024-10-18 11:51:10,103 INFO log_test_results_to_remark 310: Successfully logged test results to Remark for Jira issue BTV-3251
+2024-10-20 20:57:01,947 INFO rename_and_move_images 172: Created destination folder: .\cfg\Test_result\TC_NPL01030
+2024-10-20 20:57:01,949 INFO rename_and_move_images 192: Moved and renamed msedge_7NfhUetz8R.png to TC_NPL01030_001.png
+2024-10-20 20:57:01,949 INFO rename_and_move_images 192: Moved and renamed msedge_LISsTWHOaY.png to TC_NPL01030_002.png
+2024-10-20 20:57:01,949 INFO rename_and_move_images 192: Moved and renamed msedge_PrbdfroRJh.png to TC_NPL01030_003.png
+2024-10-20 20:57:01,949 INFO rename_and_move_images 192: Moved and renamed msedge_JhIVuI5YYB.png to TC_NPL01030_004.png
+2024-10-20 20:57:01,950 INFO rename_and_move_images 192: Moved and renamed msedge_fuLY9lPllL.png to TC_NPL01030_005.png
+2024-10-20 20:57:01,950 INFO rename_and_move_images 192: Moved and renamed msedge_a74uIQGx7n.png to TC_NPL01030_006.png
+2024-10-20 20:57:01,950 INFO rename_and_move_images 192: Moved and renamed msedge_b4lwq29esu.png to TC_NPL01030_007.png
+2024-10-20 20:57:01,950 INFO rename_and_move_images 192: Moved and renamed msedge_ZIBg9ae5s0.png to TC_NPL01030_008.png
+2024-10-20 20:57:01,951 INFO rename_and_move_images 192: Moved and renamed msedge_qmseKYl1RR.png to TC_NPL01030_009.png
+2024-10-20 20:57:01,951 INFO rename_and_move_images 192: Moved and renamed msedge_e11fyLRAMX.png to TC_NPL01030_010.png
+2024-10-20 20:57:01,951 INFO rename_and_move_images 192: Moved and renamed msedge_HFPiXZM6p3.png to TC_NPL01030_011.png
+2024-10-20 20:57:02,999 INFO attach_images_to_jira 231: Successfully attached TC_NPL01030_011.png to Jira issue BTV-3237
+2024-10-20 20:57:03,879 INFO attach_images_to_jira 231: Successfully attached TC_NPL01030_010.png to Jira issue BTV-3237
+2024-10-20 20:57:04,740 INFO attach_images_to_jira 231: Successfully attached TC_NPL01030_009.png to Jira issue BTV-3237
+2024-10-20 20:57:05,725 INFO attach_images_to_jira 231: Successfully attached TC_NPL01030_008.png to Jira issue BTV-3237
+2024-10-20 20:57:06,512 INFO attach_images_to_jira 231: Successfully attached TC_NPL01030_007.png to Jira issue BTV-3237
+2024-10-20 20:57:07,442 INFO attach_images_to_jira 231: Successfully attached TC_NPL01030_006.png to Jira issue BTV-3237
+2024-10-20 20:57:08,263 INFO attach_images_to_jira 231: Successfully attached TC_NPL01030_005.png to Jira issue BTV-3237
+2024-10-20 20:57:09,111 INFO attach_images_to_jira 231: Successfully attached TC_NPL01030_004.png to Jira issue BTV-3237
+2024-10-20 20:57:10,060 INFO attach_images_to_jira 231: Successfully attached TC_NPL01030_003.png to Jira issue BTV-3237
+2024-10-20 20:57:10,936 INFO attach_images_to_jira 231: Successfully attached TC_NPL01030_002.png to Jira issue BTV-3237
+2024-10-20 20:57:11,788 INFO attach_images_to_jira 231: Successfully attached TC_NPL01030_001.png to Jira issue BTV-3237
+2024-10-20 20:57:12,447 INFO log_test_results_to_remark 310: Successfully logged test results to Remark for Jira issue BTV-3237

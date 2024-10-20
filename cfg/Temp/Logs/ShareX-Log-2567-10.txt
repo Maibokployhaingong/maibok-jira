@@ -30,3 +30,134 @@
 2567-10-15 14:32:19.680 - WatchFolderManager started.
 2567-10-15 14:32:19.693 - Startup time: 2394 ms
 2567-10-15 14:32:19.703 - CommandLine: -silent
+2567-10-15 15:38:10.311 - Arguments received: ""
+2567-10-15 15:38:32.458 - Hotkey unregistered: Hotkey: None, Description: Capture region, Job: RectangleRegion
+2567-10-15 15:38:33.074 - Hotkey registered: Hotkey: Ctrl + Page Up, Description: Capture region, Job: RectangleRegion
+2567-10-15 15:38:34.734 - Hotkey unregistered: Hotkey: None, Description: Capture entire screen, Job: PrintScreen
+2567-10-15 15:38:35.400 - Hotkey registered: Hotkey: Page Up, Description: Capture entire screen, Job: PrintScreen
+2567-10-15 15:38:37.412 - HotkeysConfig save started: D:\Tester\jira_automation_tool\cfg\Temp\HotkeysConfig.json
+2567-10-15 15:38:37.526 - HotkeysConfig save successful: D:\Tester\jira_automation_tool\cfg\Temp\HotkeysConfig.json
+2567-10-15 15:38:39.540 - Hotkey triggered. Hotkey: Ctrl + Page Up, Description: Capture region, Job: RectangleRegion
+2567-10-15 15:38:39.551 - Executing: Capture region
+2567-10-15 15:38:41.203 - Task in queue. Job: Job, Type: Image, Host: Imgur
+2567-10-15 15:38:41.325 - Task status: Preparing
+2567-10-15 15:38:41.342 - Image copied to clipboard.
+2567-10-15 15:38:41.359 - Image saved to file: D:\Tester\jira_automation_tool\cfg\Temp\Screenshots\2024-10\python_0wyOkXLUXR.png
+2567-10-15 15:38:42.309 - Task completed. File name: python_0wyOkXLUXR.png, Duration: 983 ms
+2567-10-16 10:19:52.990 - HotkeysConfig save started: D:\Tester\jira_automation_tool\cfg\Temp\HotkeysConfig.json
+2567-10-16 10:19:53.032 - HotkeysConfig save successful: D:\Tester\jira_automation_tool\cfg\Temp\HotkeysConfig.json
+2567-10-16 12:43:11.436 - Hotkey triggered. Hotkey: Page Up, Description: Capture active monitor, Job: ActiveMonitor
+2567-10-16 12:43:11.438 - Executing: Capture active monitor
+2567-10-16 12:43:11.549 - Task in queue. Job: Job, Type: Image, Host: 
+2567-10-16 12:43:11.570 - Task status: Preparing
+2567-10-16 12:43:11.762 - Image copied to clipboard.
+2567-10-16 12:43:12.007 - Image saved to file: D:\Tester\jira_automation_tool\cfg\Temp\Screenshots\2024-10\7oq4zUhXBa.jpg
+2567-10-16 12:43:12.050 - Task completed. File name: 7oq4zUhXBa.jpg, Duration: 480 ms
+2567-10-16 12:43:12.107 - Hotkey triggered. Hotkey: Page Up, Description: Capture active monitor, Job: ActiveMonitor
+2567-10-16 12:43:12.107 - Executing: Capture active monitor
+2567-10-16 12:43:12.162 - Task in queue. Job: Job, Type: Image, Host: 
+2567-10-16 12:43:12.170 - Task status: Preparing
+2567-10-16 12:43:12.294 - Image copied to clipboard.
+2567-10-16 12:43:12.436 - Image saved to file: D:\Tester\jira_automation_tool\cfg\Temp\Screenshots\2024-10\2UBxYCgi70.jpg
+2567-10-16 12:43:12.464 - Task completed. File name: 2UBxYCgi70.jpg, Duration: 295 ms
+2567-10-16 12:43:12.615 - Hotkey triggered. Hotkey: Page Up, Description: Capture active monitor, Job: ActiveMonitor
+2567-10-16 12:43:12.615 - Executing: Capture active monitor
+2567-10-16 12:43:12.667 - Task in queue. Job: Job, Type: Image, Host: 
+2567-10-16 12:43:12.676 - Task status: Preparing
+2567-10-16 12:43:12.811 - Image copied to clipboard.
+2567-10-16 12:43:12.973 - Image saved to file: D:\Tester\jira_automation_tool\cfg\Temp\Screenshots\2024-10\mUB3j0Wb6Q.jpg
+2567-10-16 12:43:13.004 - Task completed. File name: mUB3j0Wb6Q.jpg, Duration: 329 ms
+2567-10-16 20:18:51.770 - GitHub update check failed.:
+System.Net.Http.HttpRequestException: An error occurred while sending the request. ---> System.Net.WebException: The remote name could not be resolved: 'api.github.com'
+   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   at System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- End of inner exception stack trace ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at ShareX.HelpersLib.WebHelpers.<DownloadStringAsync>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at ShareX.HelpersLib.GitHubUpdateChecker.<GetLatestRelease>d__25.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at ShareX.HelpersLib.GitHubUpdateChecker.<GetLatestRelease>d__26.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at ShareX.HelpersLib.GitHubUpdateChecker.<CheckUpdateAsync>d__22.MoveNext()
+2567-10-16 21:18:51.531 - GitHub update check failed.:
+System.Net.Http.HttpRequestException: An error occurred while sending the request. ---> System.Net.WebException: The remote name could not be resolved: 'api.github.com'
+   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   at System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- End of inner exception stack trace ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at ShareX.HelpersLib.WebHelpers.<DownloadStringAsync>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at ShareX.HelpersLib.GitHubUpdateChecker.<GetLatestRelease>d__25.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at ShareX.HelpersLib.GitHubUpdateChecker.<GetLatestRelease>d__26.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at ShareX.HelpersLib.GitHubUpdateChecker.<CheckUpdateAsync>d__22.MoveNext()
+2567-10-16 22:18:51.530 - GitHub update check failed.:
+System.Net.Http.HttpRequestException: An error occurred while sending the request. ---> System.Net.WebException: The remote name could not be resolved: 'api.github.com'
+   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   at System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- End of inner exception stack trace ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at ShareX.HelpersLib.WebHelpers.<DownloadStringAsync>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at ShareX.HelpersLib.GitHubUpdateChecker.<GetLatestRelease>d__25.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at ShareX.HelpersLib.GitHubUpdateChecker.<GetLatestRelease>d__26.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at ShareX.HelpersLib.GitHubUpdateChecker.<CheckUpdateAsync>d__22.MoveNext()
+2567-10-16 23:18:51.534 - GitHub update check failed.:
+System.Net.Http.HttpRequestException: An error occurred while sending the request. ---> System.Net.WebException: The remote name could not be resolved: 'api.github.com'
+   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   at System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- End of inner exception stack trace ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at ShareX.HelpersLib.WebHelpers.<DownloadStringAsync>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at ShareX.HelpersLib.GitHubUpdateChecker.<GetLatestRelease>d__25.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at ShareX.HelpersLib.GitHubUpdateChecker.<GetLatestRelease>d__26.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at ShareX.HelpersLib.GitHubUpdateChecker.<CheckUpdateAsync>d__22.MoveNext()
+2567-10-18 10:56:09.682 - Hotkey triggered. Hotkey: Page Up, Description: Capture active monitor, Job: ActiveMonitor
+2567-10-18 10:56:09.684 - Executing: Capture active monitor
+2567-10-18 10:56:09.813 - Task in queue. Job: Job, Type: Image, Host: 
+2567-10-18 10:56:09.887 - Task status: Preparing
+2567-10-18 10:56:09.969 - Image copied to clipboard.
+2567-10-18 10:56:10.032 - Image saved to file: D:\Tester\jira_automation_tool\cfg\Temp\Screenshots\2024-10\ZtHyDp1sFM.png
+2567-10-18 10:56:10.060 - Task completed. File name: ZtHyDp1sFM.png, Duration: 173 ms
+2567-10-18 11:50:48.852 - Hotkey triggered. Hotkey: Page Up, Description: Capture active monitor, Job: ActiveMonitor
+2567-10-18 11:50:48.853 - Executing: Capture active monitor
+2567-10-18 11:50:48.960 - Task in queue. Job: Job, Type: Image, Host: 
+2567-10-18 11:50:48.972 - Task status: Preparing
+2567-10-18 11:50:49.046 - Image copied to clipboard.
+2567-10-18 11:50:49.103 - Image saved to file: D:\Tester\jira_automation_tool\cfg\Temp\Screenshots\2024-10\msedge_mJe9wFWMyj.png
+2567-10-18 11:50:49.134 - Task completed. File name: msedge_mJe9wFWMyj.png, Duration: 163 ms

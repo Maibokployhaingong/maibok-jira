@@ -1,3 +1,9 @@
+# Global credentials variables
+username = "jirawat.m@bam.co.th"
+api_token = "ATATT3xFfGF0qSn1jb4ql4m8vS4pBurktW6IbLcSCwfqCOD0feW5EaTbOSZ5uPm4I9lZ-H8s6MJp6dmGoO2K-epMQrQdh3eA6APwLiWgbCc43KzvwUwgzTnpprGo-AlpROPlvmm57TNMpxCNiDNO3ledwmWJuhT8VrlGGB8Hqi75bWn3aOaib7Q=C9E02C3D"
+ENCODED_CREDENTIALS = ""
+AUTH = None
+
 import sys
 import base64
 from PyQt5 import QtWidgets
@@ -6,43 +12,7 @@ import config  # Import config for Jira credentials
 from processor.execute_card import process_test_case  # Import the execution function
 from processor.create_card import process_sheet  # Import the create_card function
 
-
-class CredentialsWindow(QtWidgets.QWidget):
-    def __init__(self):
-        super().__init__()
-        self.setWindowTitle("Jira Credentials")
-
-        layout = QtWidgets.QVBoxLayout()
-
-        self.username_label = QtWidgets.QLabel("Jira Username:")
-        self.username_input = QtWidgets.QLineEdit()
-        layout.addWidget(self.username_label)
-        layout.addWidget(self.username_input)
-
-        self.token_label = QtWidgets.QLabel("Jira API Token:")
-        self.token_input = QtWidgets.QLineEdit()
-        self.token_input.setEchoMode(QtWidgets.QLineEdit.Password)  # Hides the token input
-        layout.addWidget(self.token_label)
-        layout.addWidget(self.token_input)
-
-        self.set_credentials_button = QtWidgets.QPushButton("Set Credentials")
-        self.set_credentials_button.clicked.connect(self.set_credentials)
-        layout.addWidget(self.set_credentials_button)
-
-        self.setLayout(layout)
-
-    def set_credentials(self):
-        username = self.username_input.text()
-        api_token = self.token_input.text()
-
-        # Set credentials in config
-        config.set_credentials(username, api_token)
-
-        # Close credentials window and open the main tool
-        self.close()
-        self.main_window = MainWindow()
-        self.main_window.show()
-
+# print()
 
 class MainWindow(QtWidgets.QMainWindow):
     def __init__(self):
@@ -76,7 +46,6 @@ class MainWindow(QtWidgets.QMainWindow):
         self.execute_window = ExecuteWindow(self)  # Pass the reference to the main window
         self.execute_window.show()
         self.hide()
-
 
 class CreateWindow(QtWidgets.QWidget):
     def __init__(self, parent):
@@ -128,7 +97,6 @@ class CreateWindow(QtWidgets.QWidget):
     def go_back(self):
         self.close()
         self.parent.show()  # Show the main window again
-
 
 class ExecuteWindow(QtWidgets.QWidget):
     def __init__(self, parent):
@@ -193,13 +161,19 @@ class ExecuteWindow(QtWidgets.QWidget):
         self.close()
         self.parent.show()  # Show the main window again
 
+# Bypass credentials input
+def bypass_credentials():
+    global username, api_token
+    config.set_credentials(username, api_token)
 
 # Main execution
 if __name__ == "__main__":
+    bypass_credentials()  # Bypass username and API token input
+
     app = QtWidgets.QApplication(sys.argv)
 
-    # Start with credentials window
-    credentials_window = CredentialsWindow()
-    credentials_window.show()
+    # Start with the main window
+    main_window = MainWindow()
+    main_window.show()
 
     sys.exit(app.exec_())
