@@ -34,3 +34,71 @@
 2024-10-20 20:57:10,936 INFO attach_images_to_jira 231: Successfully attached TC_NPL01030_002.png to Jira issue BTV-3237
 2024-10-20 20:57:11,788 INFO attach_images_to_jira 231: Successfully attached TC_NPL01030_001.png to Jira issue BTV-3237
 2024-10-20 20:57:12,447 INFO log_test_results_to_remark 310: Successfully logged test results to Remark for Jira issue BTV-3237
+2024-10-20 22:42:52,662 INFO rename_and_move_images 172: Created destination folder: .\cfg\Test_result\TC_NPL01029
+2024-10-20 22:42:52,663 INFO rename_and_move_images 192: Moved and renamed msedge_5tf39xqVqw.png to TC_NPL01029_001.png
+2024-10-20 22:42:52,663 INFO rename_and_move_images 192: Moved and renamed msedge_kiD5vhXEK7.png to TC_NPL01029_002.png
+2024-10-20 22:42:52,665 INFO rename_and_move_images 192: Moved and renamed msedge_Q3onEloE1m.png to TC_NPL01029_003.png
+2024-10-20 22:42:52,665 INFO rename_and_move_images 192: Moved and renamed msedge_mZT2vyRfGA.png to TC_NPL01029_004.png
+2024-10-20 22:42:52,665 INFO rename_and_move_images 192: Moved and renamed msedge_riuOjbxRzF.png to TC_NPL01029_005.png
+2024-10-20 22:42:52,665 INFO rename_and_move_images 192: Moved and renamed msedge_IJZrCWezEm.png to TC_NPL01029_006.png
+2024-10-20 22:42:52,665 INFO rename_and_move_images 192: Moved and renamed msedge_rJRS5ujazL.png to TC_NPL01029_007.png
+2024-10-20 22:42:52,665 INFO rename_and_move_images 192: Moved and renamed msedge_6U9D6oNwoS.png to TC_NPL01029_008.png
+2024-10-20 22:42:53,079 ERROR attach_images_to_jira 234: Failed to attach TC_NPL01029_008.png: 404, {"errorMessages":["Issue does not exist or you do not have permission to see it."],"errors":{}}
+2024-10-20 22:42:53,390 ERROR attach_images_to_jira 234: Failed to attach TC_NPL01029_007.png: 404, {"errorMessages":["Issue does not exist or you do not have permission to see it."],"errors":{}}
+2024-10-20 22:42:53,657 ERROR attach_images_to_jira 234: Failed to attach TC_NPL01029_006.png: 404, {"errorMessages":["Issue does not exist or you do not have permission to see it."],"errors":{}}
+2024-10-20 22:42:53,911 ERROR attach_images_to_jira 234: Failed to attach TC_NPL01029_005.png: 404, {"errorMessages":["Issue does not exist or you do not have permission to see it."],"errors":{}}
+2024-10-20 22:42:54,181 ERROR attach_images_to_jira 234: Failed to attach TC_NPL01029_004.png: 404, {"errorMessages":["Issue does not exist or you do not have permission to see it."],"errors":{}}
+2024-10-20 22:42:54,421 ERROR attach_images_to_jira 234: Failed to attach TC_NPL01029_003.png: 404, {"errorMessages":["Issue does not exist or you do not have permission to see it."],"errors":{}}
+2024-10-20 22:42:54,691 ERROR attach_images_to_jira 234: Failed to attach TC_NPL01029_002.png: 404, {"errorMessages":["Issue does not exist or you do not have permission to see it."],"errors":{}}
+2024-10-20 22:42:54,953 ERROR attach_images_to_jira 234: Failed to attach TC_NPL01029_001.png: 404, {"errorMessages":["Issue does not exist or you do not have permission to see it."],"errors":{}}
+2024-10-20 22:42:55,130 ERROR log_test_results_to_remark 312: Failed to log test results to Remark: 404, {"errorMessages":["Issue does not exist or you do not have permission to see it."],"errors":{}}
+2024-10-20 22:46:24,959 ERROR rename_and_move_images 156: No files found in TEMP_FOLDER: .\cfg\Temp\Screenshots\2024-10
+2024-10-20 22:46:25,274 ERROR attach_images_to_jira 234: Failed to attach TC_NPL01029_008.png: 404, {"errorMessages":["Issue does not exist or you do not have permission to see it."],"errors":{}}
+2024-10-20 22:46:25,532 ERROR attach_images_to_jira 234: Failed to attach TC_NPL01029_007.png: 404, {"errorMessages":["Issue does not exist or you do not have permission to see it."],"errors":{}}
+2024-10-20 22:46:25,823 ERROR attach_images_to_jira 234: Failed to attach TC_NPL01029_006.png: 404, {"errorMessages":["Issue does not exist or you do not have permission to see it."],"errors":{}}
+2024-10-20 22:46:26,085 ERROR attach_images_to_jira 234: Failed to attach TC_NPL01029_005.png: 404, {"errorMessages":["Issue does not exist or you do not have permission to see it."],"errors":{}}
+2024-10-20 22:46:26,379 ERROR attach_images_to_jira 234: Failed to attach TC_NPL01029_004.png: 404, {"errorMessages":["Issue does not exist or you do not have permission to see it."],"errors":{}}
+2024-10-20 22:46:26,632 ERROR attach_images_to_jira 234: Failed to attach TC_NPL01029_003.png: 404, {"errorMessages":["Issue does not exist or you do not have permission to see it."],"errors":{}}
+2024-10-20 22:46:26,901 ERROR attach_images_to_jira 234: Failed to attach TC_NPL01029_002.png: 404, {"errorMessages":["Issue does not exist or you do not have permission to see it."],"errors":{}}
+2024-10-20 22:46:27,178 ERROR attach_images_to_jira 234: Failed to attach TC_NPL01029_001.png: 404, {"errorMessages":["Issue does not exist or you do not have permission to see it."],"errors":{}}
+2024-10-20 22:46:27,364 ERROR log_test_results_to_remark 312: Failed to log test results to Remark: 404, {"errorMessages":["Issue does not exist or you do not have permission to see it."],"errors":{}}
+2024-10-20 22:48:43,311 ERROR rename_and_move_images 156: No files found in TEMP_FOLDER: .\cfg\Temp\Screenshots\2024-10
+2024-10-20 22:48:43,640 ERROR attach_images_to_jira 234: Failed to attach TC_NPL01029_008.png: 404, {"errorMessages":["Issue does not exist or you do not have permission to see it."],"errors":{}}
+2024-10-20 22:48:43,912 ERROR attach_images_to_jira 234: Failed to attach TC_NPL01029_007.png: 404, {"errorMessages":["Issue does not exist or you do not have permission to see it."],"errors":{}}
+2024-10-20 22:48:44,180 ERROR attach_images_to_jira 234: Failed to attach TC_NPL01029_006.png: 404, {"errorMessages":["Issue does not exist or you do not have permission to see it."],"errors":{}}
+2024-10-20 22:48:44,460 ERROR attach_images_to_jira 234: Failed to attach TC_NPL01029_005.png: 404, {"errorMessages":["Issue does not exist or you do not have permission to see it."],"errors":{}}
+2024-10-20 22:48:44,730 ERROR attach_images_to_jira 234: Failed to attach TC_NPL01029_004.png: 404, {"errorMessages":["Issue does not exist or you do not have permission to see it."],"errors":{}}
+2024-10-20 22:48:44,991 ERROR attach_images_to_jira 234: Failed to attach TC_NPL01029_003.png: 404, {"errorMessages":["Issue does not exist or you do not have permission to see it."],"errors":{}}
+2024-10-20 22:48:45,270 ERROR attach_images_to_jira 234: Failed to attach TC_NPL01029_002.png: 404, {"errorMessages":["Issue does not exist or you do not have permission to see it."],"errors":{}}
+2024-10-20 22:48:45,538 ERROR attach_images_to_jira 234: Failed to attach TC_NPL01029_001.png: 404, {"errorMessages":["Issue does not exist or you do not have permission to see it."],"errors":{}}
+2024-10-20 22:48:45,715 ERROR log_test_results_to_remark 312: Failed to log test results to Remark: 404, {"errorMessages":["Issue does not exist or you do not have permission to see it."],"errors":{}}
+2024-10-20 22:50:55,064 ERROR rename_and_move_images 156: No files found in TEMP_FOLDER: .\cfg\Temp\Screenshots\2024-10
+2024-10-20 22:50:55,481 ERROR attach_images_to_jira 234: Failed to attach TC_NPL01029_008.png: 404, {"errorMessages":["Issue does not exist or you do not have permission to see it."],"errors":{}}
+2024-10-20 22:50:55,772 ERROR attach_images_to_jira 234: Failed to attach TC_NPL01029_007.png: 404, {"errorMessages":["Issue does not exist or you do not have permission to see it."],"errors":{}}
+2024-10-20 22:50:56,031 ERROR attach_images_to_jira 234: Failed to attach TC_NPL01029_006.png: 404, {"errorMessages":["Issue does not exist or you do not have permission to see it."],"errors":{}}
+2024-10-20 22:50:56,585 ERROR attach_images_to_jira 234: Failed to attach TC_NPL01029_005.png: 404, {"errorMessages":["Issue does not exist or you do not have permission to see it."],"errors":{}}
+2024-10-20 22:50:56,806 ERROR attach_images_to_jira 234: Failed to attach TC_NPL01029_004.png: 404, {"errorMessages":["Issue does not exist or you do not have permission to see it."],"errors":{}}
+2024-10-20 22:50:57,068 ERROR attach_images_to_jira 234: Failed to attach TC_NPL01029_003.png: 404, {"errorMessages":["Issue does not exist or you do not have permission to see it."],"errors":{}}
+2024-10-20 22:50:57,358 ERROR attach_images_to_jira 234: Failed to attach TC_NPL01029_002.png: 404, {"errorMessages":["Issue does not exist or you do not have permission to see it."],"errors":{}}
+2024-10-20 22:50:57,616 ERROR attach_images_to_jira 234: Failed to attach TC_NPL01029_001.png: 404, {"errorMessages":["Issue does not exist or you do not have permission to see it."],"errors":{}}
+2024-10-20 22:50:57,804 ERROR log_test_results_to_remark 312: Failed to log test results to Remark: 404, {"errorMessages":["Issue does not exist or you do not have permission to see it."],"errors":{}}
+2024-10-20 22:52:18,020 ERROR rename_and_move_images 156: No files found in TEMP_FOLDER: .\cfg\Temp\Screenshots\2024-10
+2024-10-20 22:52:18,374 ERROR attach_images_to_jira 234: Failed to attach TC_NPL01029_008.png: 404, {"errorMessages":["Issue does not exist or you do not have permission to see it."],"errors":{}}
+2024-10-20 22:52:18,659 ERROR attach_images_to_jira 234: Failed to attach TC_NPL01029_007.png: 404, {"errorMessages":["Issue does not exist or you do not have permission to see it."],"errors":{}}
+2024-10-20 22:52:18,944 ERROR attach_images_to_jira 234: Failed to attach TC_NPL01029_006.png: 404, {"errorMessages":["Issue does not exist or you do not have permission to see it."],"errors":{}}
+2024-10-20 22:52:19,201 ERROR attach_images_to_jira 234: Failed to attach TC_NPL01029_005.png: 404, {"errorMessages":["Issue does not exist or you do not have permission to see it."],"errors":{}}
+2024-10-20 22:52:19,490 ERROR attach_images_to_jira 234: Failed to attach TC_NPL01029_004.png: 404, {"errorMessages":["Issue does not exist or you do not have permission to see it."],"errors":{}}
+2024-10-20 22:52:19,751 ERROR attach_images_to_jira 234: Failed to attach TC_NPL01029_003.png: 404, {"errorMessages":["Issue does not exist or you do not have permission to see it."],"errors":{}}
+2024-10-20 22:52:20,022 ERROR attach_images_to_jira 234: Failed to attach TC_NPL01029_002.png: 404, {"errorMessages":["Issue does not exist or you do not have permission to see it."],"errors":{}}
+2024-10-20 22:52:20,281 ERROR attach_images_to_jira 234: Failed to attach TC_NPL01029_001.png: 404, {"errorMessages":["Issue does not exist or you do not have permission to see it."],"errors":{}}
+2024-10-20 22:52:20,483 ERROR log_test_results_to_remark 312: Failed to log test results to Remark: 404, {"errorMessages":["Issue does not exist or you do not have permission to see it."],"errors":{}}
+2024-10-20 22:55:14,890 ERROR rename_and_move_images 156: No files found in TEMP_FOLDER: .\cfg\Temp\Screenshots\2024-10
+2024-10-20 22:55:15,896 INFO attach_images_to_jira 231: Successfully attached TC_NPL01029_008.png to Jira issue BTV-3236
+2024-10-20 22:55:16,795 INFO attach_images_to_jira 231: Successfully attached TC_NPL01029_007.png to Jira issue BTV-3236
+2024-10-20 22:55:17,787 INFO attach_images_to_jira 231: Successfully attached TC_NPL01029_006.png to Jira issue BTV-3236
+2024-10-20 22:55:18,584 INFO attach_images_to_jira 231: Successfully attached TC_NPL01029_005.png to Jira issue BTV-3236
+2024-10-20 22:55:19,470 INFO attach_images_to_jira 231: Successfully attached TC_NPL01029_004.png to Jira issue BTV-3236
+2024-10-20 22:55:20,291 INFO attach_images_to_jira 231: Successfully attached TC_NPL01029_003.png to Jira issue BTV-3236
+2024-10-20 22:55:21,097 INFO attach_images_to_jira 231: Successfully attached TC_NPL01029_002.png to Jira issue BTV-3236
+2024-10-20 22:55:22,111 INFO attach_images_to_jira 231: Successfully attached TC_NPL01029_001.png to Jira issue BTV-3236
+2024-10-20 22:55:22,560 INFO log_test_results_to_remark 310: Successfully logged test results to Remark for Jira issue BTV-3236

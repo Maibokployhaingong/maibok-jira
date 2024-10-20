@@ -14,6 +14,12 @@ handler = RotatingFileHandler('test_results.log', maxBytes=5000000, backupCount=
 logging.basicConfig(filename='test_results.log', level=logging.INFO, 
                     format='%(asctime)s %(levelname)s %(funcName)s %(lineno)d: %(message)s')
 
+def sanitize_input(input_value):
+    if isinstance(input_value, str):
+        return input_value.strip().lower()  # Remove leading/trailing spaces and convert to lowercase
+    return input_value
+
+
 # Retry mechanism for API calls
 @retry(wait=wait_fixed(2), stop=stop_after_attempt(3))
 def make_jira_request(url, payload):
@@ -311,8 +317,13 @@ def log_test_results_to_remark(issue_key, test_status, test_date, remark):
     else:
         logging.error(f"Failed to log test results to Remark: {response.status_code}, {response.text}")
 
-# Main function to process test cases
 def process_test_case(test_case_id, issue_key, test_status, test_date, remark):
+    # Sanitize input values
+    test_case_id = sanitize_input(test_case_id)
+    issue_key = sanitize_input(issue_key)
+    test_status = sanitize_input(test_status)
+    remark = sanitize_input(remark)
+    
     if test_status == "pass":
         # For passing test cases, we don't need the running number
         case_folder = os.path.join(config.TEST_RESULT_FOLDER, test_case_id)
@@ -339,6 +350,7 @@ def process_test_case(test_case_id, issue_key, test_status, test_date, remark):
         rename_and_move_images(test_case_id, cancel_folder)
         attach_images_to_jira(issue_key, cancel_folder, test_case_id)
         log_test_results_to_remark(issue_key, test_status, test_date, remark)
+
 
 # Function to archive old test results
 def archive_old_results(days_old=30):

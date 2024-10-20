@@ -226,3 +226,59 @@
 2024-10-20 21:08:09.135 - Image copied to clipboard.
 2024-10-20 21:08:09.157 - Image saved to file: C:\Users\Ball\Desktop\Tester\jira_automation_tool\cfg\Temp\Screenshots\2024-10\msedge_YBMWjG9Yhl.png
 2024-10-20 21:08:09.178 - Task completed. File name: msedge_YBMWjG9Yhl.png, Duration: 73 ms
+2024-10-20 22:40:02.842 - Hotkey triggered. Hotkey: Page Up, Description: Capture active monitor, Job: ActiveMonitor
+2024-10-20 22:40:02.843 - Executing: Capture active monitor
+2024-10-20 22:40:02.915 - Task in queue. Job: Job, Type: Image, Host: 
+2024-10-20 22:40:02.929 - Task status: Preparing
+2024-10-20 22:40:02.963 - Image copied to clipboard.
+2024-10-20 22:40:02.987 - Image saved to file: C:\Users\Ball\Desktop\Tester\jira_automation_tool\cfg\Temp\Screenshots\2024-10\msedge_5tf39xqVqw.png
+2024-10-20 22:40:03.006 - Task completed. File name: msedge_5tf39xqVqw.png, Duration: 76 ms
+2024-10-20 22:40:05.151 - Hotkey triggered. Hotkey: Page Up, Description: Capture active monitor, Job: ActiveMonitor
+2024-10-20 22:40:05.151 - Executing: Capture active monitor
+2024-10-20 22:40:05.210 - Task in queue. Job: Job, Type: Image, Host: 
+2024-10-20 22:40:05.221 - Task status: Preparing
+2024-10-20 22:40:05.253 - Image copied to clipboard.
+2024-10-20 22:40:05.276 - Image saved to file: C:\Users\Ball\Desktop\Tester\jira_automation_tool\cfg\Temp\Screenshots\2024-10\msedge_kiD5vhXEK7.png
+2024-10-20 22:40:05.294 - Task completed. File name: msedge_kiD5vhXEK7.png, Duration: 74 ms
+2024-10-20 22:40:07.230 - Hotkey triggered. Hotkey: Page Up, Description: Capture active monitor, Job: ActiveMonitor
+2024-10-20 22:40:07.230 - Executing: Capture active monitor
+2024-10-20 22:40:07.293 - Task in queue. Job: Job, Type: Image, Host: 
+2024-10-20 22:40:07.304 - Task status: Preparing
+2024-10-20 22:40:07.334 - Image copied to clipboard.
+2024-10-20 22:40:07.355 - Image saved to file: C:\Users\Ball\Desktop\Tester\jira_automation_tool\cfg\Temp\Screenshots\2024-10\msedge_Q3onEloE1m.png
+2024-10-20 22:40:07.375 - Task completed. File name: msedge_Q3onEloE1m.png, Duration: 71 ms
+2024-10-20 22:40:10.510 - Hotkey triggered. Hotkey: Page Up, Description: Capture active monitor, Job: ActiveMonitor
+2024-10-20 22:40:10.510 - Executing: Capture active monitor
+2024-10-20 22:40:10.580 - Task in queue. Job: Job, Type: Image, Host: 
+2024-10-20 22:40:10.592 - Task status: Preparing
+2024-10-20 22:40:10.623 - Image copied to clipboard.
+2024-10-20 22:40:10.644 - Image saved to file: C:\Users\Ball\Desktop\Tester\jira_automation_tool\cfg\Temp\Screenshots\2024-10\msedge_mZT2vyRfGA.png
+2024-10-20 22:40:10.663 - Task completed. File name: msedge_mZT2vyRfGA.png, Duration: 71 ms
+2024-10-20 22:40:13.756 - Hotkey triggered. Hotkey: Page Up, Description: Capture active monitor, Job: ActiveMonitor
+2024-10-20 22:40:13.756 - Executing: Capture active monitor
+2024-10-20 22:40:13.809 - Task in queue. Job: Job, Type: Image, Host: 
+2024-10-20 22:40:13.821 - Task status: Preparing
+2024-10-20 22:40:13.850 - Image copied to clipboard.
+2024-10-20 22:40:13.873 - Image saved to file: C:\Users\Ball\Desktop\Tester\jira_automation_tool\cfg\Temp\Screenshots\2024-10\msedge_riuOjbxRzF.png
+2024-10-20 22:40:13.890 - Task completed. File name: msedge_riuOjbxRzF.png, Duration: 69 ms
+2024-10-20 22:40:16.831 - Hotkey triggered. Hotkey: Page Up, Description: Capture active monitor, Job: ActiveMonitor
+2024-10-20 22:40:16.831 - Executing: Capture active monitor
+2024-10-20 22:40:16.893 - Task in queue. Job: Job, Type: Image, Host: 
+2024-10-20 22:40:16.903 - Task status: Preparing
+2024-10-20 22:40:16.933 - Image copied to clipboard.
+2024-10-20 22:40:16.954 - Image saved to file: C:\Users\Ball\Desktop\Tester\jira_automation_tool\cfg\Temp\Screenshots\2024-10\msedge_IJZrCWezEm.png
+2024-10-20 22:40:16.972 - Task completed. File name: msedge_IJZrCWezEm.png, Duration: 68 ms
+2024-10-20 22:40:18.582 - Hotkey triggered. Hotkey: Page Up, Description: Capture active monitor, Job: ActiveMonitor
+2024-10-20 22:40:18.583 - Executing: Capture active monitor
+2024-10-20 22:40:18.643 - Task in queue. Job: Job, Type: Image, Host: 
+2024-10-20 22:40:18.670 - Task status: Preparing
+2024-10-20 22:40:18.701 - Image copied to clipboard.
+2024-10-20 22:40:18.722 - Image saved to file: C:\Users\Ball\Desktop\Tester\jira_automation_tool\cfg\Temp\Screenshots\2024-10\msedge_rJRS5ujazL.png
+2024-10-20 22:40:18.739 - Task completed. File name: msedge_rJRS5ujazL.png, Duration: 69 ms
+2024-10-20 22:40:22.982 - Hotkey triggered. Hotkey: Page Up, Description: Capture active monitor, Job: ActiveMonitor
+2024-10-20 22:40:22.982 - Executing: Capture active monitor
+2024-10-20 22:40:23.043 - Task in queue. Job: Job, Type: Image, Host: 
+2024-10-20 22:40:23.053 - Task status: Preparing
+2024-10-20 22:40:23.083 - Image copied to clipboard.
+2024-10-20 22:40:23.105 - Image saved to file: C:\Users\Ball\Desktop\Tester\jira_automation_tool\cfg\Temp\Screenshots\2024-10\msedge_6U9D6oNwoS.png
+2024-10-20 22:40:23.125 - Task completed. File name: msedge_6U9D6oNwoS.png, Duration: 72 ms
